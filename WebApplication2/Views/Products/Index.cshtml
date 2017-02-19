@@ -37,3 +37,15 @@
 }
 
 </table>
+
+
+
+
+
+@foreach (var item in Model)
+{
+    <div>@item.Id</div>
+    <div>@item.Name</div>
+    <div>@item.Cost</div>
+    <hr />
+}
